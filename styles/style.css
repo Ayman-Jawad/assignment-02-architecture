@@ -157,9 +157,83 @@ main {
 }
 
 .facility-description {
-    font-size: 16px;
+    font-size: 12px;
     color: #727272;
 }
 
 /* section 5 styles */
 
+.facts {
+    text-align: left;
+    margin-left: 65px;
+}
+
+.fact-title {
+    font-size: 45px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.fact-description {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    color: #727272;
+}
+
+/* Facts Style */
+.fact-container {
+    padding: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Box style */
+.resources {
+    border: 1px solid #FF900E;
+    padding: 45px;
+}
+
+/* Section 6 styles */
+.text {
+    text-align: center;
+}
+
+.text-head {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-top: 80px;
+}
+
+.title {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.brands {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    filter: grayscale(100%);
+}
+
+
+/* Footer Section */
+footer {
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.footer-content {
+    padding: 25px 0px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
