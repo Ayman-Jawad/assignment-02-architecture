@@ -81,7 +81,7 @@ main {
     margin-top: 20px;
 }
 
-/* Banner Image */
+/* Banner Image Style */
 
 .image-size {
     height: 50%;
@@ -195,6 +195,15 @@ main {
     padding: 45px;
 }
 
+/*-------------------------
+                       Special Effects
+                       ------------------------------*/
+
+.resources:hover {
+    background-color: #ffb764;
+    transform: translate(25px, 0px);
+}
+
 /* Section 6 styles */
 .text {
     text-align: center;
@@ -222,30 +231,34 @@ main {
     filter: grayscale(100%);
 }
 
-/* Section 7/Log in  */
-.login-container{
+/* Section 7/Log in styles */
+.login-container {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
-.login-form{
+
+.login-form {
     display: flex;
-    flex-direction : column;
+    flex-direction: column;
     width: 50%;
-    }
-    .login-title{
-        font-size: 28px;
-        font-weight: 700;
-    }
-    .login-form input{
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.login-form input {
     margin-top: 10px;
     font-size: 18px;
     padding: 5px 5px;
-    }
-    .login-form input[type="submit"]{
-        background-color: #FF900E;
-        border: 0px;
-    }
+}
+
+.login-form input[type="submit"] {
+    background-color: hwb(32 33% 0%);
+    border: 0px;
+}
 
 /* Footer Section */
 footer {
