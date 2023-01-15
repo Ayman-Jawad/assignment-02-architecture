@@ -39,17 +39,20 @@ main {
 
 
 /* Section 2 styles */
-.banner-container,.architecture-container {
+.banner-container,
+.architecture-container {
     text-align: center;
 }
 
-.banner-title,.architecture-title {
+.banner-title,
+.architecture-title {
     font-size: 64px;
     font-weight: 700;
     margin-top: 70px;
 }
 
-.banner-description,.architecture-description {
+.banner-description,
+.architecture-description {
     color: #727272;
     font-size: 16px;
     padding: 10px;
@@ -57,6 +60,14 @@ main {
     height: 52px;
     margin: auto;
     margin-top: 10px;
+}
+
+.grey-text {
+    color: #727272;
+}
+
+.orange-text {
+    color: #FF900E;
 }
 
 .button {
@@ -83,26 +94,72 @@ main {
 
 /* section 3 styles */
 
-.architecture-container{
+.architecture-container {
     height: 100vh;
     width: 100%;
     padding: 55px 55px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
+
 .architectures {
     height: 100%;
     width: 100%;
     padding: 20px 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px;  
+    grid-gap: 15px;
 }
 
-.architecture-feature{
+.architecture-feature {
     text-align: left;
     margin-left: 10px;
 }
+
+/* Section 4 styles */
+.facility-class {
+    display: flex;
+    justify-content: center;
+}
+
+.facility-class {
+    text-align: left;
+    padding: 80px;
+}
+
+.facility-title {
+    font-size: 45px;
+    margin-bottom: 15px;
+    border-left: 5px solid #FF900E;
+    padding: 10px;
+}
+
+.title-facility-description {
+    margin-bottom: 20px;
+    color: #727272;
+}
+
+/* the 4th facilities style */
+.facilities-container {
+    height: 100vh;
+    width: 70%;
+    padding: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 8px grey;
+}
+
+.facilities-title {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.facility-description {
+    font-size: 16px;
+    color: #727272;
+}
+
+/* section 5 styles */
+
